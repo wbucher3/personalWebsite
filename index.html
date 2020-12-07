@@ -7,13 +7,91 @@
   <title>WilliamBucher.com</title>
   <meta name="description" content="Personal website containing resume and things about me">
   <meta name="author" content="William Bucher">
-
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
   <link rel="stylesheet" href="./styles.css">
 
 </head>
 
 <body>
-    <h1>Hello World!</h1>
+
+<!-- intro card -->
+
+<section class="section">
+  <div class="columns">
+
+    <!--right column-->
+    <div class="column is-two-thirds">
+      <div class="landingPageTitle">
+      <p class="title" style="font-size: 90px;">
+        Hey I am Will!
+
+      </p>
+
+      <p class="subtitle" style="font-size: 30px;">
+        Welcome to my website!
+
+      </p>
+      </div>
+
+    </div>
+
+    <!--left column-->
+    <div class="column">
+      <img src="./images/stickman.png">
+
+    </div>
+
+  </div>
+</section>
+
+<!--Categories-->
+
+<section class="section">
+
+  <div class="columns">
+
+    <!--education tab-->
+    <div class="column is-one-third">
+      <div class="card grow" onclick="location.href = './background.html'">
+        <img src="images/gradHat.png">
+        <p class="cardSubtext">
+          resume and education
+        </p>
+        </div>
+    </div>
+
+    <!--Personal Project Tab-->
+    <div class="column is-one-third">
+      <div class="card grow" onclick="location.href = './projects.html'">
+        <img src="images/computer.png">
+        <p class="cardSubtext">
+          personal comp sci projects 
+        </p>
+        </div>
+      </div>
+
+    <!--Hobbies Tab-->
+    <div class="column is-one-third">
+      <div class="card grow" onclick="location.href = './hobbies.html'">
+        <img src="images/basketball.png">
+        <p class="cardSubtext">
+          hobbies
+        </p>
+        </div>
+      </div>
+
+
+  </div>
+</section>
+
+<!-- post button info-->
+<section class="section">
+  <div class="section">
+    <p>this will have some info in it</p>
+  </div>
+
+</section>
+
 
 </body>
 </html>
