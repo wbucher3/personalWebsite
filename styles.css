@@ -2,6 +2,9 @@
     font-family: 'Trebuchet MS', sans-serif;
 }
 
+body {
+    background-color: lightblue;
+}
 .landingPageTitle {
     text-align: center;
     padding: 170px;
@@ -16,5 +19,6 @@
 
 .cardSubtext {
     text-align: center;
-    font-size: 30px;
+    font-size: 2vw;
 }
+
